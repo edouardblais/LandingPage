@@ -1,6 +1,6 @@
 /* stylesheet for Bisson's landing page */
 
-.header, .firstsection {
+.header, .intro {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -8,17 +8,17 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 52px
+    padding: 20px 40px;
 }
 
 .headone {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .headtwo {
-    font-size: 24px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     gap: 30px;
     display: flex;
@@ -28,4 +28,97 @@
 a {
     text-decoration: none;
     color:#F9FAF8;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.description {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 30px;
+    align-items: center;
+}
+
+.subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#1F2937;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.adventures {
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.text {
+    width:400px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#1F2937 ;
+    font-style: italic;
+    text-align: center;
+}
+
+.container {
+    background-color:#E5E7EB;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#1F2937;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+
+.citation {
+    font-size:44px;
+    font-style: italic;
+}
+
+.cited {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
 }
