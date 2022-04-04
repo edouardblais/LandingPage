@@ -1,0 +1,31 @@
+/* stylesheet for Bisson's landing page */
+
+.header, .firstsection {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 52px
+}
+
+.headone {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headtwo {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 30px;
+    display: flex;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color:#F9FAF8;
+}
